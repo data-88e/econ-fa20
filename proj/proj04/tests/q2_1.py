@@ -1,0 +1,11 @@
+test = {   'name': 'q2_1',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> assert calculate_return(nyse["IBM"]) != nyse["IBM"]\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert calculate_return(nyse["IBM"]).num_rows < nyse["IBM"].num_rows\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> assert len(calculate_return(nyse["IBM"]).labels) == 4;\n>>> assert "return" in calculate_return(nyse["IBM"]).labels\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
